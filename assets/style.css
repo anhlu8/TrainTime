@@ -1,0 +1,35 @@
+* {
+    Box-sizing: border-box;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.jumbotron{
+    background-color:peru;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+
+.card{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.card-top{
+    background-color: lightcoral;
+    padding: 10px;
+    color: white
+}
+
+form{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.col-form-label {
+    padding: 1px;
+}
