@@ -58,7 +58,7 @@ $(document).ready(function () {
         var minutesAway = frequency - timeRemainder;
         console.log(minutesAway);
 
-        var nextArrival = moment().add(minutesAway).format("HH:mm A");
+        var nextArrival = moment().add(minutesAway,"m").format("HH:mm A");
         console.log(nextArrival);
 
         console.log(trainName);
